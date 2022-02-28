@@ -111,7 +111,7 @@ While all the models successfully identified the low risk applications, none of 
 
 <h4> Recommendations </h4>
 
-- I would not recommend any of the above models for identifying hisk risk applications. Although for low risk data, the precision was high throughout the six models, it is often of more significance to identify high risk applications accurately.
+- Precision is the measure of how reliable a positive classification is and Recall is the ability of the classifier to find all the positive samples. For all the six models we tested above, both these values were unreliabily low for hisk risk applications. Hence, I would not recommend any of the above models for identifying hisk risk applications. Although for low risk data, the precision was high throughout the six models, it is often of more significance to identify high risk applications accurately.
 - Secondly, using other algorithms, machine learning methods could enhance the results for high risk precision, however meeting all the requirements can be quite tricky as there is a tradeoff between precision and recall, meaning that increasing the value of one of these metrics often decreases the value of the other.
 
 
