@@ -19,10 +19,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 </kbd>
 
-- Precision Score : 
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.01 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 67.42%
+- Recall : 0.74 (high_risk) & 0.61 (low_risk)
+- F1 score : 0.02 (high_risk) & 0.67 (low_risk)
 
 
 <h3><P align=center>2. SMOTE Oversampling </p> </h3>
@@ -34,10 +34,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 </kbd>
 
-- Precision Score :
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.01 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 66.23%
+- Recall : 0.63 (high_risk) & 0.69 (low_risk)
+- F1 score : 0.02 (high_risk) & 0.82 (low_risk)
 
 <h3><P align=center>3. Cluster Centroids Resampling </p> </h3>
 <br> 
@@ -46,10 +46,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-- Precision Score :
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.01 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 54.47%
+- Recall : 0.69 (high_risk) & 0.40 (low_risk)
+- F1 score : 0.01 (high_risk) & 0.57 (low_risk)
 
 
 <h3><P align=center>4. SMOTEEN Resampling </p> </h3>
@@ -62,11 +62,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 </kbd>
 
-
-- Precision Score :
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.01 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 64.00%
+- Recall : 0.70 (high_risk) & 0.58 (low_risk)
+- F1 score : 0.02 (high_risk) & 0.73 (low_risk)
 
 
 <h3><P align=center>5. Balanced Random Forest Classifier </p> </h3>
@@ -80,10 +79,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 </kbd>
 
 
-- Precision Score :
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.03 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 78.85%
+- Recall : 0.70 (high_risk) & 0.87 (low_risk)
+- F1 score : 0.06 (high_risk) & 0.93 (low_risk)
 
 
 <h3><P align=center>6. Easy Ensemble AdaBoost Classifier </p> </h3>
@@ -96,11 +95,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 </kbd>
 
-
-- Precision Score :
-- Accuracy of the Classifier :
-- Recall :
-- F1 score :
+- Precision Score : 0.09 (high_risk) & 1.00 (low_risk)
+- Accuracy of the Classifier : 93.16%
+- Recall : 0.92 (high_risk) & 0.94 (low_risk)
+- F1 score : 0.16 (high_risk) & 0.97 (low_risk)
 
 
 
