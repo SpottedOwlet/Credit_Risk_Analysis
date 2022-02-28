@@ -112,6 +112,6 @@ While all the models successfully identified the low risk applications, none of 
 <h4> Recommendations </h4>
 
 - I would not recommend any of the above models for identifying hisk risk applications. Although for low risk data, the precision was high throughout the six models, it is often of more significance to identify high risk applications accurately.
-- Secondly, the quality of the data being classified would enhance the results for high risk precision, however meeting all the requirements can be quite tricky as there is a tradeoff between precision and recall, meaning that increasing the value of one of these metrics often decreases the value of the other.
+- Secondly, using other algorithms, machine learning methods could enhance the results for high risk precision, however meeting all the requirements can be quite tricky as there is a tradeoff between precision and recall, meaning that increasing the value of one of these metrics often decreases the value of the other.
 
 
