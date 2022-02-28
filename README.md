@@ -105,6 +105,13 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 <h2><P align=center>  Summary </p></h2>
 
+Above six machine learning models were used to analyze and classify the hisk risk and low risk loan applications. Since the data is not balanced in it nature in terms of both classes, we used undersampling and oversampling algorithms. However, the number of data for low risk and high risk applications could not be accurately classified with the help of any of the above models. 
+
+While all the models successfully identified the low risk applications, none of the models could predict the high risk applications with high precision. Moreover, because the data for low risk applications were far more than that of the high risk data, the classification report shows skewed results for both categories.
 
 <h4> Recommendations </h4>
+
+- I would not recommend any of the above models for identifying hisk risk applications. Although for low risk data, the precision was high throughout the six models, it is often of more significance to identify high risk applications accurately.
+- Secondly, the quality of the data being classified would enhance the results for high risk precision, however meeting all the requirements can be quite tricky as there is a tradeoff between precision and recall, meaning that increasing the value of one of these metrics often decreases the value of the other.
+
 
